@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 15, 2022, 8:27:12 PM
+    Author     : DELL
+*/
+
+.form-reward-penalty{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.list-options{
+    width: 232px;
+    height: 33px;
+    padding: 1px 2px;
+    margin-top: 13px
+}
+
+.button-rp{
+    margin-bottom: 16px;
+    
+}
+
+.button-rp input{
+    width: 232px;
+    height: 33px;
+    padding: 1px 2px;
+}
+.list-reward-penalty thead tr th{
+    font-size: 16px
+}
+
+.list-reward-penalty thead tr{
+    vertical-align: middle;
+    text-align: center
+}
+
+.list-reward-penalty tbody tr td{
+     vertical-align: middle;
+    text-align: center
+}
+
+.rp-image{
+    width: 100px;
+    height: 100px
+}

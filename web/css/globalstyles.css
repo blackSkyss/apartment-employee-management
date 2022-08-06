@@ -1,0 +1,168 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 8, 2022, 10:14:54 PM
+    Author     : DELL
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    overflow-y: auto
+}
+
+.list-dep table{
+    font-size: 14px
+}
+
+.location{
+    font-size: 15px
+}
+
+.input-btn{
+    border: none;
+    background: none;
+    font-weight: 500
+}
+
+.input-btn:hover{
+    text-decoration: underline;
+    opacity: 0.6;
+    cursor: pointer
+}
+
+.dep-btn{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px
+}
+
+.dep-btn a{
+    margin-right: 32px;
+    color: #333;
+    font-weight: 500
+}
+
+.btn{
+    min-width: 88px;
+    background-color: #333
+}
+
+.form-position__btn{
+    margin-top:  26px
+}
+
+.change-department table{
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.change-department table tr{
+    font-size: 14px;
+    
+}
+
+.change-department table thead tr th{
+    vertical-align: middle
+}
+
+.change-department table td{
+    vertical-align: middle
+}
+
+.nameEmp{
+    font-size: 13px
+}
+
+.changedep-btn{
+    float: right; 
+}
+
+.changedep-btn a{
+    font-weight: 500
+}
+
+.changedep-btn a:hover{
+    text-decoration: underline;
+    opacity: 0.6
+}
+
+/*
+LIST EMPLOYEE
+*/
+.list-employee{
+    width: 100%
+}
+
+.list-employee table{
+    font-size: 16px
+}
+
+.list-employee table thead tr th{
+
+    vertical-align: middle
+}
+
+.list-employee table tbody  tr td{
+
+    vertical-align: middle;
+    font-size: 14px
+}
+
+/*
+Regulation
+*/
+
+.list-regulation {
+    width: 100%
+}
+
+.list-regulation table{
+    text-align: center
+}
+
+/*
+Waiting Screen
+*/
+
+
+
+/*
+LIST POSITION
+*/
+.list-position{
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle
+}
+
+.list-position tbody tr td{
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle
+}
+
+/*
+Certificate
+*/
+.list-certificate thead{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px
+}
+
+.list-certificate tbody{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px
+}
+
+
+

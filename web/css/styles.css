@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.table td, .table th{
+    padding: 0.5rem !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+/* ============= EMPLOYEE ============ */
+.list__employee{
+    width: 100%;
+    margin: 0 16px;
+    font-size: 16px;
+    text-align: center
+}
+
+.list__employee-title{
+    text-align: initial;
+    margin-bottom: 20px
+}
+
+.list__employee-item{
+    display: flex;
+    align-items: center
+}
+
+.list__employee-description{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    font-size: 14px;
+    margin-left: 8px
+}
+
+.list__employee-description-name{
+    font-weight: 600;
+    margin-bottom: 2px
+}
+
+.list__employee-description-pos{
+    font-size: 13px;
+    opacity: 0.9
+}
+
+.list__employee-header{
+
+}
+
+.list__employee-body{
+    text-align: center;
+    align-items: center
+}
+
+.list__employee-item-img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%
+}
+
+.list__employee-link{
+    float: right;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.add-btn{
+    background-color: #00a8ef;
+    border: 1px solid #00c5fb;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+    min-width: 140px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px 10px;
+    display: flex;
+}
+
+.list__employee-link{
+    display: flex;
+    align-items: center
+}
+
+.list__employee-icon{
+    margin-right: 4px;
+    margin-left: 0
+}
+
+.breadcrumb{
+    background-color: #f7f7f7 !important;
+    display: inline-flex !important;
+    float: left !important
+}
+
+.page-title{
+    text-align: initial !important;
+    margin-left: 16px !important
+}
+
+.list-employee__actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

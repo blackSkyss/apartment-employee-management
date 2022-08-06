@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 21, 2022, 7:39:19 PM
+    Author     : DELL
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.header__container{
+    height: 58px;
+    width: 100%;
+    background: linear-gradient(to right, #00c0f9, #0255cd);
+    margin-bottom: 16px
+}
+
+.header__navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff
+}
+
+.header__logo{
+    display: flex;
+    align-items: center
+}
+
+.header__logo h3{
+    margin: 0 ;
+    font-size: 20px ;
+    margin-left: 16px;
+}
+
+.header__logo-img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 20px
+}
+
+.header__user{
+    display: flex;
+    justify-items: center;
+    min-height: 26px;
+    margin: 0 24px;
+    position: relative;
+    transition: 0.4s
+}
+
+.header__user-img{
+    width: 26px;
+    height: 26px;
+    margin-right: 4px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header__user-name{
+    text-align: center
+}
+
+.header__user:hover .header__user-menu {
+  display: block;
+}
+
+.header__user-menu{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    padding-left: 0;
+    top: calc(100% + 6px);
+    right: 0;
+    background-color: #fff;
+    color: #333;
+    border-radius: 2px;
+    width: 100px;
+    z-index: 1;
+    box-shadow: 0 1px 2px #e0e0e0;
+    text-align: center;
+    transition: 0.4s
+}
+
+.header__user-menu::before{
+    position: absolute;
+    content: "";
+    border-style: solid;
+    border-width: 18px 27px;
+    border-color: transparent transparent #fff transparent;
+    right: 4px;
+    top: -26px;
+    z-index: -1;
+}
+
+.header__user-item:hover{
+    opacity: 0.8;
+    cursor: pointer
+}
+
+.header__user-item{
+    height: 26px
+}
+    
